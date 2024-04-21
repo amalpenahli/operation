@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("metn daxil edin");
+        String text = input.nextLine();
+        String rever = "";
+        for (int i = 0; i < text.length(); i++) {
+            rever = text.charAt(i)+rever;
+        }
+        System.out.println(rever);
+    }
+}
